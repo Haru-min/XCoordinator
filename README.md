@@ -1,3 +1,19 @@
+# Modified XCoordinator
+
+이 브랜치는 XCoordinator의 원본 라이브러리 macarong-app-ios에서 사용하기 위해 수정한 버전입니다.
+
+## 주요 변경사항
+- Container의 'view' 파라미터명을 'xView'로 변경
+    - 변경 이유: UIKit의 'view' 속성과의 naming conflict 방지
+
+## 설치 방법
+```
+pod 'XCoordinator', :git =>
+'https://github.com/Haru-min/XCoordinator.git', :branch => 'mycle'
+```
+
+-----
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/15239005/221913790-9c2b89fc-7497-49a1-9087-c3277f3ab4f2.png">
 </p>
